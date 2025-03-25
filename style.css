@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+.container {
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  border: 1px solid #ccc;
+  background: white;
+}
+textarea {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  resize: none;
+  font-size: 16px;
+}
+.preview {
+  width: 50%;
+  padding: 10px;
+  overflow-y: auto;
+}
+button {
+  position: absolute;
+  bottom: 20px;
+  padding: 10px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+pre {
+  background: #f4f4f4;
+  padding: 10px;
+  overflow-x: auto;
+}
+code {
+  font-family: monospace;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
